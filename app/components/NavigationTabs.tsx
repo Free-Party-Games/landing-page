@@ -6,7 +6,7 @@ interface NavigationTabsProps {
 export default function NavigationTabs({ activeTab, onTabChange }: NavigationTabsProps) {
   return (
     <section id="games" className="relative max-w-7xl mx-auto px-4 mb-8">
-      <div className="bg-white border-4 border-black rounded-lg overflow-hidden" style={{borderRadius: '15px'}}>
+      <div className="bg-white border-4 border-black rounded-lg overflow-hidden" style={{borderRadius: '15px', color:'black'}}>
         <div className="flex flex-col sm:flex-row">
           <button
             onClick={() => onTabChange('all')}

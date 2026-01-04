@@ -3,8 +3,8 @@ export default function HeroSection() {
     <section className="relative py-12 sm:py-20 px-4">
       <div className="max-w-5xl mx-auto text-center">
         {/* Party characters */}
-        <div className="flex justify-center items-center gap-4 mb-8">
-            <img src="/charades.svg" alt="Free Party Games Logo" className="h-64"/>
+        <div className="md:flex justify-center items-center gap-4 mb-8">
+            <img src="/charades.svg" alt="Free Party Games Logo" className="h-64 mx-auto md:mx-0"/>
         
             <div>
                 <h2 className="text-4xl sm:text-6xl md:text-7xl font-black text-gray-900 mb-4">
@@ -15,7 +15,7 @@ export default function HeroSection() {
                 </p>
             </div>
 
-            <img src="/spy.svg" alt="Free Party Games Logo" className="h-64"/>
+            <img src="/spy.svg" alt="Free Party Games Logo" className="h-64 hidden md:block"/>
 
         </div>
 

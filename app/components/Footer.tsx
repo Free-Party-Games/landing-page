@@ -25,7 +25,7 @@ export default function Footer() {
           <span>•</span>
           <a href="/terms" className="hover:text-gray-900">Terms of Service</a>
           <span>•</span>
-          <a href="https://github.com/freepartygames" className="hover:text-gray-900 flex items-center gap-1">
+          <a href="https://github.com/free-party-games" className="hover:text-gray-900 flex items-center gap-1">
             <Github className="w-4 h-4" />
             Open Source
           </a>

@@ -72,7 +72,7 @@ export default function AboutSection() {
               Want to add your own word packs or help build new games? We'd love your help! Check out our GitHub repo to get started.
             </p>
             <a
-              href="https://github.com/freepartygames"
+              href="https://github.com/free-party-games"
               target="_blank"
               rel="noopener noreferrer"
               className="doodle-btn bg-gray-800 text-white inline-flex items-center gap-2 text-base sm:text-lg"
