@@ -1,0 +1,27 @@
+# Free Party Games - Robots.txt
+# This file tells search engines how to crawl and index your website
+
+# Allow all bots
+User-agent: *
+Allow: /
+
+# Disallow private or internal pages
+Disallow: /admin/
+Disallow: /private/
+Disallow: /_next/
+Disallow: /.next/
+Disallow: /api/
+
+# Crawl delay (optional - in seconds)
+# Crawl-delay: 1
+
+# Allow Google-specific crawling
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 0
+
+# Sitemap location
+Sitemap: https://freepartygames.com/sitemap.xml
+
+# Cache control
+# Note: Add cache-control headers in next.config.ts for better SEO

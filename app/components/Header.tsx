@@ -21,7 +21,7 @@ export default function Header() {
               <span className="hidden sm:inline">GitHub</span>
             </a>
             <a 
-              href="https://buymeacoffee.com/freepartygames" 
+              href="https://buymeacoffee.com/rajeshnathani" 
               target="_blank"
               rel="noopener noreferrer"
               className="doodle-btn bg-yellow-300 text-gray-900 flex items-center gap-2 text-sm"
